@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}"
+    android:orientation="vertical"
+    android:background="@drawable/gradient" >
+
+    <FrameLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="250dp"
+    	android:layout_gravity="center">
+    
+	    <hu.ait.android.travelingsalesman.TutorialDraw
+	        android:id="@+id/tutorialView"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"/>
+	    
+	    <ImageView 
+	        android:id="@+id/pointFinger1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:rotation="340"
+	        android:src="@drawable/finger"/>
+	    
+	    <TextView
+	        android:id="@+id/tvTut4"
+		   	android:layout_width="match_parent"
+		   	android:layout_height="match_parent"
+		   	android:gravity="center"
+		    android:textColor="#F5F5DC"
+		    android:visibility="gone"
+		    android:textSize="80dp" 
+		    android:text="Enjoy!"
+		    	    />
+    </FrameLayout>
+    
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	    	android:layout_height="match_parent"
+	    	android:orientation="horizontal"
+	    	android:gravity="center"
+	    	android:weightSum="7">
+	    	
+	        <TextView 
+	            android:id="@+id/tvTutorial1"
+	            android:layout_width="wrap_content"
+	        	android:layout_height="100dp"
+	        	android:textColor="#F5F5DC"
+	        	android:layout_weight="6"
+	        	android:layout_marginLeft="10dp"
+	        	android:layout_marginRight="0dp"
+	        	android:textSize="20dp"
+	        	android:gravity="center_vertical"
+	        	android:text="Swipe from one point to another to connect. Swipe again to disconnect."/>
+	        
+	        <LinearLayout 
+	            android:layout_height="match_parent"
+	            android:layout_width="80dp"
+	            android:orientation="vertical"
+	            android:gravity="center"
+	            android:layout_marginLeft="5dp"
+		        android:layout_marginRight="5dp">
+		    	
+		    	<Button
+		    	    android:id="@+id/btnNext1"
+		        	android:layout_width="match_parent"
+		        	android:layout_height="wrap_content"
+		        	android:layout_gravity="center"
+		        	android:layout_weight="1"
+		        	android:layout_marginTop="5dp"
+		        	android:layout_marginRight="5dp"
+		        	style="@android:style/Widget.Holo.Button"
+		        	android:textColor="#F5F5DC"
+		        	android:text="Next" />
+		    	
+		    	<Button
+		    	    android:id="@+id/btnBack"
+		        	android:layout_width="match_parent"
+		        	android:layout_height="wrap_content"
+		        	android:layout_gravity="center"
+		        	android:layout_weight="1"
+		        	android:layout_marginTop="2dp"
+		        	android:layout_marginRight="5dp"
+		        	style="@android:style/Widget.Holo.Button"
+		        	android:textColor="#F5F5DC"
+		        	android:text="Back" />
+	    	
+	    	</LinearLayout>
+	    	
+	    </LinearLayout>
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:gravity="center" >
+	    	
+	        <Button
+	            android:id="@+id/btnTutHome"
+	            android:layout_width="150dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="5dp"
+	        	android:layout_marginRight="5dp"
+	        	android:layout_marginBottom="5dp"
+	        	android:layout_marginTop="5dp"
+	        	style="@android:style/Widget.Holo.Button"
+	        	android:textColor="#F5F5DC"
+	        	android:visibility="gone"
+	        	android:text="Home"
+	        	 />
+	        
+	    </LinearLayout>
+	    
+    </FrameLayout>
+
+</LinearLayout>

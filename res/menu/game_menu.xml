@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+<!--     <item
+        android:id="@+id/action_set"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:showAsAction="always"
+        android:title="Click!"/> -->
+    
+    <item
+        android:id="@+id/btnGameHome"
+        android:title="Home"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        />
+    
+   <item
+       android:id="@+id/btnStartOver"
+       android:title="Start Over"
+       android:orderInCategory="100"
+       android:showAsAction="always"
+       />
+
+</menu>

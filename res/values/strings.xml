@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TravelingSalesman</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_enter_points">EnterPointsActivity</string>
+    <string name="traveling_salesman">Traveling Salesman</string>
+    <string name="title_activity_tutorial">TutorialActivity</string>
+
+</resources>

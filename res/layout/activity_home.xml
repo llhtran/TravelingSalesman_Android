@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}"
+    android:orientation="vertical"
+    android:background="@drawable/gradient" >
+
+    <TextView
+        android:id="@+id/gameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Traveling Salesman"
+        android:textSize="50dp" 
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textColor="#F5F5DC"
+        />
+    
+    
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+    	android:layout_marginTop="5dp">
+    
+    <Button
+        android:id="@+id/btnStartGame"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        style="@android:style/Widget.Holo.Button"
+        android:textColor="#F5F5DC"
+        android:text="Start Game"/>    
+        
+    <Button
+        android:id="@+id/btnPractice"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        style="@android:style/Widget.Holo.Button"
+        android:textColor="#F5F5DC"
+        android:text="Practice"/>
+    
+    <Button
+        android:id="@+id/btnTutorial"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        style="@android:style/Widget.Holo.Button"
+        android:textColor="#F5F5DC"
+        android:text="Tutorial"/>
+    
+    <!-- <TextView
+        android:id="@+id/subText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By Lien Tran"
+        android:textSize="15dp" 
+        android:fontFamily="serif"
+        android:textColor="#F5F5DC"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center"
+        /> -->
+    </LinearLayout>
+	
+    
+    
+</LinearLayout>
